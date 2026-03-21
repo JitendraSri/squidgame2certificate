@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ctx.textBaseline = 'middle';
 
         const textX = elements.canvas.width / 2;
-        const textY = elements.canvas.height * 0.45 + 200;
+        const textY = elements.canvas.height * 0.45 + 210;
 
         ctx.fillText(name, textX, textY);
 
