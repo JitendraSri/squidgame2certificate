@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize Certificate Template
     const certificateTemplate = new Image();
     // Load image directly from file
-    certificateTemplate.src = 'images/certificate.png';
+    certificateTemplate.src = 'certificate.png';
 
     certificateTemplate.onload = () => {
         elements.canvas.width = certificateTemplate.width;
